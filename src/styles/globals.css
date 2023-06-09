@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  font-family: var(--font-local), -apple-system, BlinkMacSystemFont;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 100px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    background-color: black;
+    color: white;
+  }
+}
